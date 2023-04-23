@@ -1,0 +1,74 @@
+/* css reset */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #f9f5ed;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    font-family: "Montserrat";
+}
+
+.images{
+    width: fit-content;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    max-height: 50%;
+} 
+
+.images img{
+    height: 15rem;
+}
+
+.images img[alt="pic1"]{
+    height: 15rem;
+    width: 15rem;
+    
+}
+
+.images img[alt="pic2"]{
+    height: 15rem;
+    width: 15rem;
+}
+
+.images img[alt="pic3"] {
+    height: 15rem;
+}
+
+.left{
+    margin: 5rem;
+}
+.heading-text{
+    font-size: 3rem;
+    font-family: "poppins";
+}
+
+.description{
+    font-family: "Poppins";
+
+}
+
+.nav-button{
+    background-color: #3b855b;
+    border: none;
+    padding: 15px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    color: white;
+}

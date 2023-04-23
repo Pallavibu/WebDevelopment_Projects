@@ -1,0 +1,154 @@
+/* css reset */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  margin: 40px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 30px;
+  font-family: "Orbitron";
+  font-weight: 700;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.search-icon svg {
+   height: 30px; 
+}
+
+.nav-button {
+  padding: 7px;
+  width: 100px;
+  border-radius: 5px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.starf {
+  display: flex;
+  flex-direction: row-reverse;
+  /* gap: 10px; */
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  height: 40px;
+}
+
+.square img {
+  height: 280px;
+  position: absolute;
+  top: 150px;
+  left: 60px;
+}
+
+.person img {
+  height: 350px;
+  position: absolute;
+  top: 34px;
+  left: 10px;
+}
+
+.globe img {
+  height: 40px;
+  position: absolute;
+  right: 480px;
+  top: 60px;
+}
+
+.hero-container-right {
+  display: flex;
+  
+  flex-direction: column;
+  position: absolute;
+   right: 140px;
+  /* justify-content: center;
+  align-items: center; */
+  width: 55%;
+  
+}
+
+.hero-heading {
+  position: absolute;
+  top: 130px;
+  right: 140px;
+  font-family: "Orbitron";
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 190px;
+  width: 85%;
+  text-align: center;
+}
+
+.icons{
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    row-gap: 40px;
+   
+}
+
+.both-button{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 280px;
+    gap: 10px;
+    right: 270px;
+}
+
+.contact-heading{
+    position: absolute;
+    top: 320px;
+    right: 315px;
+    font-size: 25px;
+}
+
+.stars img{
+  height: 40px;
+  position: absolute;
+  left: 380px;
+  top: 350px;
+    }
+
+.button-email{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.button-join{
+  background-color: black;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+}
+
+span img{
+  height: 30px;
+}

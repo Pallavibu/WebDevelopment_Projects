@@ -1,0 +1,388 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.nav-bar{
+    margin: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo img{
+    height: 2.3rem; 
+}
+
+.group-list{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    margin: 0.5rem;
+}
+
+.language-select{
+    border-color: black;
+    background-color: black;
+}
+
+button{
+    padding: 0.8rem;
+    background-color: black;
+    border: none;
+    color: white;   
+}
+
+
+div #pinkbtn1{
+    height: 1rem; 
+}
+
+.sec1_intro{
+    display: flex;
+}
+
+.intro1{
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    font-size: 4.5rem;
+    font-family: "Poppins";
+    top: 8.5rem;
+}
+
+.intro1 b{
+    color: #f637ec;
+}
+
+.intro2{
+    position: absolute;
+    top: 23rem;
+    font-size: 2.5rem;
+    width: 40rem;
+    font-family: "Poppins";
+}
+.intro2 p{
+    color: #aeaeae;
+    font-size: 1.3rem;
+}
+
+.getstarted1{
+    color: white;
+    display: flex;
+    position: relative; 
+    top: 25rem ;
+    font-family: "Poppins";
+}
+
+.getstarted1 p{
+    position: relative;
+    left: 1.2rem;
+    font-size: 1.2rem;
+}
+
+div .pinkbtn2{
+    position: absolute;
+    left: 0rem;
+}
+
+div .rightarrow{
+    position: absolute;
+    left: 9rem;
+}
+
+.experience_box{
+    display: flex;
+    position: absolute;
+    top: 37rem;
+}
+
+.experience_box1{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.experience_42k p{
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+}
+
+.experience_happy{
+    color: white;
+} 
+
+.experience_Act{
+    color: white;
+}
+
+.experience_box2{
+    color: white;
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.experience_12k p{
+    font-size: 2rem;
+    display: flex;
+    font-size: 2.5rem;
+}
+
+.cards{
+    display: flex;
+}
+
+.backcard{
+    position: relative;
+    left: -2rem;
+    top: -5rem;
+}
+
+.frontcard{
+    position: absolute;
+    left: 23rem;
+}
+
+.sec2{
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    padding : 5.2rem; 
+    height: 15rem;
+    gap: 3.8rem; 
+}
+
+.sec2 img{
+    height: 3rem;
+}
+
+.section3{
+    height: 50rem;
+}
+
+.payment_info{
+    display: flex;
+    margin: 4.5rem;
+    gap: 15rem;
+}
+
+.payment_info1{
+    font-size: 4rem;
+    color: white;
+    width: 30rem;
+}
+
+.payment_info1 b{
+    color: #f637ec;
+}
+
+.payment_info2{
+    color: white;
+    width: 26rem;
+    font-size: 1.4rem;
+}
+
+
+.box123{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn1{
+    background-color: #272727;
+    border-color: white;
+    padding: 3.5rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+.btn2{
+    background-color: #525150;
+    border-color: white;
+    padding: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+}
+
+.btn3{
+    background-color: #272727;
+    border-color: white;
+    padding: 3.5rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+.section4{
+    background-color: white;
+    font-family: "Poppins";
+}
+
+.uniqueChoice{
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.uniqueChoice>p{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.uniqueChoice>p>b{
+    color: #f637ec;
+    font-size: 5rem;
+}
+
+.uniqueEx{
+    width: 53rem;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+
+.vCard img{
+    margin-top: 2rem;
+}
+
+.customer{
+    color: white; 
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Poppins";
+    margin: 3rem 0rem;
+}
+
+.customer b{
+    color: #f637ec;
+}
+
+.features{
+    font-size: 1.5rem;
+    color: white;
+    width: 40rem;
+    text-align: center;
+    margin: 2rem 0rem 2rem 20rem;
+}
+
+.boxbutton{
+    margin-left: 5rem;
+} 
+
+.btn45{
+    display: flex;
+    gap: 5rem;
+}
+
+.btn4{
+    background-color: #5b5a5a;
+    border-color: white;
+    margin: 3rem; 
+    height: 10rem;
+    width: 25rem;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.btn5{
+    background-color: #1e1f24;
+    border-color: white;
+    margin: 3rem;
+    height: 10rem;
+    width: 24.7rem;
+    font-size: 1rem;
+}
+
+.btn67{
+    display: flex;
+    gap: 5rem;
+}
+
+.btn6{
+    background-color: #1e1f24;
+    border-color: white;
+    margin: 3rem;
+    height: 10rem;
+    width: 25rem;
+    font-size: 1rem;
+}
+
+.btn7{
+    background-color: #1e1f24;
+    border-color: white;
+    margin: 3rem;
+    height: 10rem;
+    width: 25rem;
+    font-size: 1rem;
+}
+
+.pinkbox{
+    display: flex;
+}
+
+.pinkbox1{
+    position: relative; 
+}
+
+.pinkbox2{
+    position: absolute;
+}
+
+.diamondleft{
+    position: absolute;
+} 
+
+.diamondright{
+    position: absolute;
+    margin-left: 50rem;
+}
+
+.rectinfo{
+    color: white;
+    position: absolute;
+    font-size: 4.5em;
+    margin-top: -27rem;
+    margin-left: 10rem;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.rectinfo1 span{
+    color: black;
+}
+
+.btnget{
+    position: absolute;
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: -12rem;
+    margin-left: 30rem;
+}
+
+.btnget div p{
+    color: white;
+}
+
+.foot-sec{
+    display: flex;
+    margin: 5rem;
+    gap: 12rem;
+}
+
+.foot-sec-box{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    margin: 1rem;
+}
+
