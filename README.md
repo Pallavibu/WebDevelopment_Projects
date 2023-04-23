@@ -3,4 +3,7 @@ Welcome to my GitHub repository showcasing my HTML/CSS projects. I've created a 
 
 ## HTML CSS Projects
 1. Calm Playlist : Static landing page showcasing Bluetooth Headphones.
-![Calm Playlist](https://github.com/Pallavibu/WebDevelopment_Projects/tree/main/Calm_Playlist/Banner.png?raw=True)
+![Calm Playlist](https://raw.githubusercontent.com/Pallavibu/WebDevelopment_Projects/main/Calm_Playlist/Banner.png)
+
+2. Credit Card : Full fledged landing page for Credit card company listing features and customer reviews.
+![Credit Card](https://raw.githubusercontent.com/Pallavibu/WebDevelopment_Projects/main/Credit_Card/Banner.png)
