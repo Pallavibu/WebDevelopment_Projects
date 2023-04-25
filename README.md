@@ -3,7 +3,13 @@ Welcome to my GitHub repository showcasing my HTML/CSS projects. I've created a 
 
 ## HTML CSS Projects
 1. Calm Playlist : Static landing page showcasing Bluetooth Headphones.
+
+[Live website link](https://reliable-klepon-dac91d.netlify.app/)
+
 ![Calm Playlist](https://raw.githubusercontent.com/Pallavibu/WebDevelopment_Projects/main/Calm_Playlist/Banner.png)
 
 2. Credit Card : Full fledged landing page for Credit card company listing features and customer reviews.
+
+[Live website link](https://cerulean-marshmallow-f70299.netlify.app/)
+
 ![Credit Card](https://raw.githubusercontent.com/Pallavibu/WebDevelopment_Projects/main/Credit_Card/Banner.png)
