@@ -13,3 +13,5 @@ Welcome to my GitHub repository showcasing my HTML/CSS projects. I've created a 
 [Live website link](https://cerulean-marshmallow-f70299.netlify.app/)
 
 ![Credit Card](https://raw.githubusercontent.com/Pallavibu/WebDevelopment_Projects/main/Credit_Card/Banner.png)
+
+3. Crypto Market : 
