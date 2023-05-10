@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title>Calculator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" id="stylesheet" href="style.css">
+	
 </head>
 <body>
+	<div>
+		<button id="light-theme">Dark/Light</button>
+	</div>
 	<div class="calculator">
 		<div class="display">
 			<input type="text" id="input" readonly>
@@ -26,9 +30,10 @@
 			<button onclick="addInput('.')">.</button>
 			<button onclick="clearInput()">C</button>
 			<button onclick="calculate()">=</button>
-			
 		</div>
+		
 	</div>
+	
 	<script src="script.js"></script>
 </body>
 </html>

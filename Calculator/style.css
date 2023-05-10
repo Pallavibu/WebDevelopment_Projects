@@ -1,3 +1,11 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: rgb(213, 243, 149);
+} 
+
+
 .calculator {
     width: 200px;
     margin: 50px auto;
@@ -6,6 +14,11 @@
     border-radius: 5px;
   }
   
+  #light-theme{
+    display: flex;
+    margin: 1rem 65rem;
+  }
+
   .display {
     margin-bottom: 10px;
   }
@@ -37,3 +50,21 @@
     background-color: #ddd;
   }
   
+  body {
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Dark theme styles */
+  body.dark {
+    background-color: #333;
+    color: #f8f8f8;
+  }
+  
+  body.dark h1 {
+    color: #f8f8f8;
+  }
+  
+  body.dark p {
+    color: #ddd;
+  }
