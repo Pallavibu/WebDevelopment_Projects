@@ -55,16 +55,20 @@
     color: #333;
   }
   
-  /* Dark theme styles */
-  body.dark {
-    background-color: #333;
-    color: #f8f8f8;
+  .btn-click{
+    color:black ;
+    border-radius: 30px;
   }
   
-  body.dark h1 {
-    color: #f8f8f8;
+  .dark-mode{
+    background-color: black;
+    color: white;
   }
   
-  body.dark p {
-    color: #ddd;
+  .pink-mode{
+    background-color: pink;
+    color: black;
   }
+  
+  
+  
