@@ -13,19 +13,17 @@
     background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg);
   }
   
-  /* designing the weather app container */
   .container {
     width: 600px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 25px;
     padding: 15px;
+    background-color: rgb(162, 219, 56);
   }
   
-  /* designing the search area */
   .searchData {
     border: 1px solid black;
   }
@@ -41,7 +39,6 @@
     cursor: pointer;
   }
   
-  /* designing the city weather data */
   .cityWeatherData {
     display: flex;
     flex-direction: column;
