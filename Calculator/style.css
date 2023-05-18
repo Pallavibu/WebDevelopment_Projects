@@ -5,6 +5,10 @@
   background-color: rgb(213, 243, 149);
 } 
 
+body {
+  background-color: rgb(213, 243, 149);
+  color: #333;
+}
 
 .calculator {
     width: 200px;
@@ -14,26 +18,17 @@
     border-radius: 5px;
   }
   
-  #light-theme{
-    display: flex;
-    margin: 1rem 65rem;
-  }
-
-  .display {
-    margin-bottom: 10px;
-  }
-  
   input {
     width: 100%;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 7px;
     font-size: 20px;
   }
   
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
+    grid-gap: 7px;
   }
   
   button {
@@ -50,14 +45,10 @@
     background-color: #ddd;
   }
   
-  body {
-    background-color: #f8f8f8;
-    color: #333;
-  }
-  
   .btn-click{
     color:black ;
     border-radius: 30px;
+    margin: 1rem 2rem 0rem 70rem;
   }
   
   .dark-mode{
@@ -70,5 +61,14 @@
     color: black;
   }
   
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  body.pink-mode {
+    background-color: pink;
+    color: black;
+  }
   
   
