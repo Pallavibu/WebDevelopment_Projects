@@ -33,10 +33,22 @@ const getData = async (event) => {
   humidity.innerHTML = data.current.humidity;
   windSpeed.innerHTML = data.current.wind_kph;
   temprature.innerHTML = data.current.temp_c;
-  logoImage.src = data.current.condition.icon;  
+  logoImage.src = data.current.condition.icon;
   weatherStatus.innerHTML = data.current.condition.text;
+
+  if (weatherStatus.innerHTML === "Sunny") {
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1485395578879-6ba080c9cdba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')";
+  } else if (weatherStatus.innerHTML === "Partly cloudy") {
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1603437873662-dc1f44901825?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')";
+
+  } else if (weatherStatus.innerHTML === "Rainy") {
+    document.body.style.backgroundImage = "url('https://wallpapers.com/images/hd/rain-background-0gxckn1rxnuwpake.jpg')";
+  } else {
+    document.body.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg')";
+  }
 }
 
 
 const form = document.querySelector(".searchData")
 form.addEventListener("submit", getData);
+

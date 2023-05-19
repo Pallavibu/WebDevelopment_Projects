@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: center;
     background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .container {
@@ -23,19 +25,29 @@
     justify-content: center;
     gap: 25px;
     padding: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.4);
     color: white;
   }
   
   .searchData {
-    border: 1px solid black;
+    border: 1px solid rgba(243, 227, 7, 0);
+    padding-right: 0px 20px 0px 20px ;
+    
   }
   
+  #inputBox{
+    margin-right: 20px;
+    border-radius: 15%;
+  }
+
+  #searchBtn{
+    border-radius: 15%;
+  }
   .searchData input {
     border: transparent;
     padding: 5px;
   }
-  
+
   .searchData button {
     border: transparent;
     padding: 5px 15px;
