@@ -1,6 +1,7 @@
 
 let data;
 const inputBox = document.getElementById("inputBox");
+const currentTime = document.getElementById("currentTime")
 const countryName = document.getElementById("countryName");
 const stateName = document.getElementById("stateName");
 const cityName = document.getElementById("cityName");
@@ -24,6 +25,8 @@ const getData = async (event) => {
 
   const data = await fetchData.json();
   console.log(data);
+
+  currentTime.innerHTML = data.location.localtime;
   countryName.innerHTML = data.location.country;
   stateName.innerHTML = data.location.region;
   cityName.innerHTML = data.location.name;
