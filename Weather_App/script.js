@@ -52,3 +52,5 @@ const getData = async (event) => {
 const form = document.querySelector(".searchData")
 form.addEventListener("submit", getData);
 
+// videos can also be added 
+// Images are added
