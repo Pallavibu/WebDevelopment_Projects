@@ -1,83 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Weather App</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>Weather Web App</h1>
-  
-        <!-- section for searching the weather of a city -->
-        <form class="searchData">
-          <input id="inputBox" type="text" placeholder="Enter the city name" />
-          <button id="searchBtn" type="submit" >Search</button>
-        </form>
-  
-        <!-- section for displaying the city weather data -->
-        <section class="cityWeatherData">
-          <!-- displaying the country details -->
-          <div class="details">
-            <!-- displaying the country name -->
+      <h1>Weather Web App</h1>
 
-            <div class="card">
-              <p>Time</p>
-              <p id="currentTime">__</p>
-            </div>
+      <!-- section for searching the weather of a city -->
+      <form class="searchData">
+        <input id="inputBox" type="text" placeholder="Enter the city name" />
+        <button id="searchBtn" type="submit">Search</button>
+      </form>
 
-            <div class="card">
-              <p>Country Name</p>
-              <p id="countryName">__</p>
-            </div>
-  
-            <!-- displaying the state name -->
-            <div class="card">
-              <p>State Name</p>
-              <p id="stateName">__</p>
-            </div>
-  
-            <!-- displaying the city name -->
-            <div class="card">
-              <p>City Name</p>
-              <p id="cityName">__</p>
-            </div>
+      <!-- section for displaying the city weather data -->
+      <section class="cityWeatherData">
+        <!-- displaying the country details -->
+        <div class="details">
+          <!-- displaying the country name -->
+          <div class="card">
+            <p>Time</p>
+            <p id="currentTime">-</p>
           </div>
-  
-          <!-- displaying the weather status -->
-          <div class="weatherDetails details">
-            <!-- displaying the humidity -->
-            <div class="card">
-              <p>Humidity</p>
-              <p id="humidity">__</p>
-            </div>
-  
-            <!-- displaying the wind speed -->
-            <div class="card">
-              <p>Wind Speed</p>
-              <p><span id="windSpeed">__</span> KMPH</p>
-            </div>
-  
-            <!-- displaying the current temprature in celcius -->
-            <div class="card">
-              <p>Temprature</p>
-              <!-- unicode for degree celcius symbol -->
-              <p><span id="temprature">__</span>&#8451;</p>
-            </div>
-  
-            <!-- displaying the weather condition -->
-            <div class="card">
-              <img width="20px" id="logoImage" alt="icon" />
-              <p id="weatherStatus">__</p>
-            </div>
+
+          <div class="card">
+            <p>Country</p>
+            <p id="countryName">-</p>
           </div>
-        </section>
-      </div>
-    </body>
+
+          <!-- displaying the state name -->
+          <div class="card">
+            <p>State</p>
+            <p id="stateName">-</p>
+          </div>
+
+          <!-- displaying the city name -->
+          <div class="card">
+            <p>City</p>
+            <p id="cityName">-</p>
+          </div>
+        </div>
+
+        <!-- displaying the weather status -->
+        <div class="weatherDetails details">
+          <!-- displaying the humidity -->
+          <div class="card">
+            <p>Humidity</p>
+            <p id="humidity">-</p>
+          </div>
+
+          <!-- displaying the wind speed -->
+          <div class="card">
+            <p>Wind Speed</p>
+            <p><span id="windSpeed"> - </span> KMPH</p>
+          </div>
+
+          <!-- displaying the current temprature in celcius -->
+          <div class="card">
+            <p>Temprature</p>
+            <!-- unicode for degree celcius symbol -->
+            <p><span id="temprature"> - </span>&#8451;</p>
+          </div>
+
+          <!-- displaying the weather condition -->
+          <div class="card">
+            <img width="20px" id="logoImage" alt="logo" />
+            <p id="weatherStatus">-</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <script src="./script.js"></script>
-  </html>
-</body>
+    <!-- Html was having duplicate body and html tags ending -->
+  </body>
 </html>
